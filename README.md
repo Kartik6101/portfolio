@@ -1,128 +1,106 @@
-# Next.js + Tailwind CSS + TypeScript Starter and Boilerplate
+[![Issues][issues-shield]][issues-url]
 
-<div align="center">
-  <h2>🔋 ts-nextjs-tailwind-starter</h2>
-  <p>Next.js + Tailwind CSS + TypeScript starter packed with useful development features.</p>
-  <p>Made by <a href="https://theodorusclarence.com">Theodorus Clarence</a></p>
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h3 align="center">Portfolio Website</h3>
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/theodorusclarence/ts-nextjs-tailwind-starter)](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/stargazers)
-[![Depfu](https://badges.depfu.com/badges/fc6e730632ab9dacaf7df478a08684a7/overview.svg)](https://depfu.com/github/theodorusclarence/ts-nextjs-tailwind-starter?project_id=30160)
-[![Last Update](https://img.shields.io/badge/deps%20update-every%20sunday-blue.svg)](https://shields.io/)
+  <p align="center">
+     A Discord bot which notifies about hackathons being conducted.
+    <br />
+    <a href="https://github.com/substantialcattle5/portfolio"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/substantialcattle5/portfolio">View Demo</a>
+    ·
+    <a href="https://github.com/substantialcattle5/portfolio/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/substantialcattle5/portfolio/issues">Request Feature</a>
+  </p>
+</p>
 
-</div>
+<!-- TABLE OF CONTENTS -->
 
-## Features
+## Table of Contents
 
-This repository is 🔋 battery packed with:
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
 
-- ⚡️ Next.js 13 with App Router
-- ⚛️ React 18
-- ✨ TypeScript
-- 💨 Tailwind CSS 3 — Configured with CSS Variables to extend the **primary** color
-- 💎 Pre-built Components — Components that will **automatically adapt** with your brand color, [check here for the demo](https://tsnext-tw.thcl.dev/components)
-- 🃏 Jest — Configured for unit testing
-- 📈 Absolute Import and Path Alias — Import components using `@/` prefix
-- 📏 ESLint — Find and fix problems in your code, also will **auto sort** your imports
-- 💖 Prettier — Format your code consistently
-- 🐶 Husky & Lint Staged — Run scripts on your staged files before they are committed
-- 🤖 Conventional Commit Lint — Make sure you & your teammates follow conventional commit
-- ⏰ Release Please — Generate your changelog by activating the `release-please` workflow
-- 👷 Github Actions — Lint your code on PR
-- 🚘 Automatic Branch and Issue Autolink — Branch will be automatically created on issue **assign**, and auto linked on PR
-- 🔥 Snippets — A collection of useful snippets
-- 👀 Open Graph Helper Function — Awesome open graph generated using [og](https://github.com/theodorusclarence/og), fork it and deploy!
-- 🗺 Site Map — Automatically generate sitemap.xml
-- 📦 Expansion Pack — Easily install common libraries, additional components, and configs.
+<!-- ABOUT THE PROJECT -->
 
-See the 👉 [feature details and changelog](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/blob/main/CHANGELOG.md) 👈 for more.
+## About The Project
 
-You can also check all of the **details and demos** on my blog post:
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-- [One-stop Starter to Maximize Efficiency on Next.js & Tailwind CSS Projects](https://theodorusclarence.com/blog/one-stop-starter)
+### Built With
+
+- [Next](https://expressjs.com/)
+- [Tailwind](https://www.prisma.io/docs)
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-### 1. Clone this template using one of the three ways:
+To get a local copy up and running follow these simple steps.
 
-1. Use this repository as template
+### Prerequisites
 
-   **Disclosure:** by using this repository as a template, there will be an attribution on your repository.
+This is an example of how to list things you need to use the software and how to install them.
 
-   I'll appreciate if you do, so this template can be known by others too 😄
+- npm
 
-   ![Use as template](https://user-images.githubusercontent.com/55318172/129183039-1a61e68d-dd90-4548-9489-7b3ccbb35810.png)
-
-2. Using `create-next-app`
-
-   ```bash
-   npx create-next-app -e https://github.com/theodorusclarence/ts-nextjs-tailwind-starter project-name
-   ```
-
-   If you still want to use **pages directory** (_is not actively maintained_) you can use this command
-
-   ```bash
-   npx create-next-app -e https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/tree/pages-directory project-name
-   ```
-
-3. Using `degit`
-
-   ```bash
-   npx degit theodorusclarence/ts-nextjs-tailwind-starter YOUR_APP_NAME
-   ```
-
-4. Deploy to Vercel
-
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fts-nextjs-tailwind-starter)
-
-### 2. Install dependencies
-
-It is encouraged to use **yarn** so the husky hooks can work properly.
-
-```bash
-yarn install
+```sh
+npm install npm@latest -g
 ```
 
-### 3. Run the development server
+### Installation
 
-You can start the server using this command:
+1. Clone the repo
 
-```bash
-yarn dev
+```sh
+git clone https://github.com/SubstantialCattle5/portfolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/pages/index.tsx`.
+2. Install NPM packages
 
-### 4. Change defaults
+```sh
+npm install
+```
 
-There are some things you need to change including title, urls, favicons, etc.
+<!-- ROADMAP -->
 
-### 5. Commit Message Convention
+## Roadmap
 
-This starter is using [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/), it is mandatory to use it to commit changes.
+See the [open issues](https://github.com/substantialcattle5/portfolio/issues) for a list of proposed features (and known issues).
 
-## Projects using ts-nextjs-tailwind-starter
+<!-- CONTRIBUTING -->
 
-<!--
-TEMPLATE
-- [sitename](https://sitelink.com) ([Source](https://github.com/githublink))
-- [sitename](https://sitelink.com)
--->
+## Contributing
 
-- [theodorusclarence.com](https://theodorusclarence.com) ([Source](https://github.com/theodorusclarence/theodorusclarence.com))
-- [Notiolink](https://notiolink.thcl.dev/) ([Source](https://github.com/theodorusclarence/notiolink))
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Are you using this starter? Please add your page (and repo) to the end of the list via a [Pull Request](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/edit/main/README.md). 😃
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'feat: Add some AmazingFeature'`)
+4. Push to the Branch (`git push -u origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Expansion Pack 📦
+You are requested to follow the contribution guidelines specified in [CONTRIBUTING.md](./CONTRIBUTING.md) while contributing to the project :smile:.
 
-This starter is now equipped with an [expansion pack](https://github.com/theodorusclarence/expansion-pack).
+<!-- LICENSE -->
 
-You can easily add expansion such as React Hook Form + Components, Storybook, and more just using a single command line.
+## License
 
-https://user-images.githubusercontent.com/55318172/146631994-e1cac137-1664-4cfe-950b-a96decc1eaa6.mp4
+Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
 
-Check out the [expansion pack repository](https://github.com/theodorusclarence/expansion-pack) for the commands
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-### App Router Update
-
-Due to App Router update, the expansion pack is currently **outdated**. It will be updated in the future. You can still use them by copy and pasting the files.
+[issues-shield]: https://img.shields.io/github/issues/csivitu/Template.svg?style=flat-square
