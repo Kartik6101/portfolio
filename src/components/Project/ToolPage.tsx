@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Dropdown from '@/components/Dropdown/Dropdown';
-import Tools from '@/components/Project/Tools';
 import SexyLine from '@/components/SexyLine';
 
 import { textFontStyle, titlePosition } from '@/styles/introduction';
@@ -79,14 +78,14 @@ const toolsData: {
 };
 
 const ToolPage = () => {
-  const [selectedOption, setSelectedOption] = useState(
-    Object.keys(toolsData)[0]
-  );
+  // const [selectedOption, setSelectedOption] = useState(
+  //   Object.keys(toolsData)[0]
+  // );
 
-  const handleOptionSelect = (option: string) => {
-    setSelectedOption(option);
-    return null;
-  };
+  // const handleOptionSelect = (option: string) => {
+  //   setSelectedOption(option);
+  //   return null;
+  // };
   return (
     <>
       <div
@@ -110,10 +109,12 @@ const ToolPage = () => {
         <div className=''>
           <Dropdown
             options={Object.keys(toolsData)}
-            onOptionSelect={handleOptionSelect}
+            onOptionSelect={() => {
+              return null;
+            }}
           />
         </div>
-        <Tools tools={toolsData[selectedOption]} />
+        {/* <Tools tools={toolsData[selectedOption]} /> */}
       </div>
     </>
   );
