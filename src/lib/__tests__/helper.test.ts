@@ -1,4 +1,4 @@
-import { openGraph } from '@/lib/og';
+import { openGraph } from '@/lib/helper';
 
 describe('Open Graph function should work correctly', () => {
   it('should not return templateTitle when not specified', () => {

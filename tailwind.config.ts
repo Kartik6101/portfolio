@@ -6,7 +6,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['Inter', ...defaultTheme.fontFamily.sans],
+        primary: ['mono', ...defaultTheme.fontFamily.sans],
+        secondary: ['Helvetica', ...defaultTheme.fontFamily.sans],
+      },
+      backgroundImage: {
+        'sandpaper-texture': 'url("/images/b.jpg")',
+        'dark-texture': "url('/images/lambo.jpg')",
+        'project-background-dark': "url('/images/projectsBackground.jpg')",
       },
       colors: {
         primary: {
@@ -52,5 +58,5 @@ export default {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 } satisfies Config;
